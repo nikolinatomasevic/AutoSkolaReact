@@ -5,7 +5,7 @@ function NavMenu(){
         <div>
             <nav>
                 <Link to={"/"}>Polaznici</Link>
-                <Link to={""}>Kontakt</Link>
+                <Link to={"/contact"}>Kontakt</Link>
                 
             </nav>
         </div>
