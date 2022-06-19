@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import axios from 'axios';
+import Polaznici from '../component/Polaznici';
 
 
 function Home(){
@@ -20,7 +21,7 @@ function Home(){
 
     return (
         <div>
-
+            <Polaznici polaznici={polaznici} />
         </div>
     )
 }

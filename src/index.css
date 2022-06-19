@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.tablepolaznici{
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 5%;
+}
