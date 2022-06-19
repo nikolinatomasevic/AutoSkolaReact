@@ -17,3 +17,14 @@ code {
   margin-left: 15%;
   margin-top: 5%;
 }
+
+nav a{
+  font-size: 30px;
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+}
+
+nav {
+  background-color: black;
+}

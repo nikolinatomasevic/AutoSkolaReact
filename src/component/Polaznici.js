@@ -1,9 +1,13 @@
+import NavMenu from "./NavMenu";
+
 function Polaznici(props){
 
     const polaznici = props.polaznici;
 
     return (
         <div>
+
+            <NavMenu />
             
             <div className="tablepolaznici">
 
