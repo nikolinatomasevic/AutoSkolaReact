@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-function ContactForma(){
+function ContactForma(props){
 
     const [imePrezime, setImePrezime] = useState('');
     const [brojTelefona, setBrojTelefona] = useState('');
@@ -26,6 +26,7 @@ function ContactForma(){
 
     return (
         <div>
+
              <form className="formcnt">
                 <div className="eforma">
                     <label>Ime i prezime: </label>
@@ -43,7 +44,7 @@ function ContactForma(){
                     <label>Pitanje: </label>
                     <textarea className="form-control mb-2" value={pitanje} onChange={handlePitanje} />
                 </div>
-                <button type="button" className='btn btn-dark' id="btnsend">Pošalji</button>
+                <button type="button" className='btn btn-primary' onClick={() => props.showInput(imePrezime, brojTelefona, email, pitanje)} id="btnsend">Pošalji</button>
             </form>
         </div>
     )
